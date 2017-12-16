@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="God avaJ">
 <meta property="og:description" content="背景出于对JVM的好奇，笔者最近在看《HotSpot 实战》，希望能够更加深入的了解下JVM内部的原理和实现。作者第一步就让我们尝试自己去编译Openjdk，看似简单，然而bug频出，笔者查了无数资料才得以编译成功，所以分享出来希望能够为想要编译openjdk的朋友提供点微小的帮助。 环境 Ubuntu16.04 Openjdk 7   http://download.java.net/openj">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2017-12-16T05:00:45.000Z">
+<meta property="og:updated_time" content="2017-12-16T07:56:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu16.04 成功编译openjdk7">
 <meta name="twitter:description" content="背景出于对JVM的好奇，笔者最近在看《HotSpot 实战》，希望能够更加深入的了解下JVM内部的原理和实现。作者第一步就让我们尝试自己去编译Openjdk，看似简单，然而bug频出，笔者查了无数资料才得以编译成功，所以分享出来希望能够为想要编译openjdk的朋友提供点微小的帮助。 环境 Ubuntu16.04 Openjdk 7   http://download.java.net/openj">
@@ -185,7 +185,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -195,7 +195,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -259,7 +259,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-16T10:22:27+08:00">
                 2017-12-16
@@ -347,7 +347,7 @@
 <p>遇到和”javax/sound/jsoundalsa”相关的一个错误</p>
 </blockquote>
 <p>需要修改openjdk/jdk/make/javax/sound/jsoundalsa目录下的Makefile文件，找到 LDFLAGS += -lasound   修改为 OTHER_LDLIBS += -lasound</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>坑非常多，所以笔者给大家准备了我经过修改之后的</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>坑非常多，所以笔者给大家准备了我经过修改之后的openjdk，应该是会少很多的Bug，希望给读者带来帮助。<br><a href="https://github.com/wssgyyg/OpenjdkBugfree" target="_blank" rel="noopener">https://github.com/wssgyyg/OpenjdkBugfree</a></p>
 
       
     </div>
@@ -394,6 +394,11 @@
           
 
   
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMjQ2My85MDI0"></div>
+    </div>
+
+  
 
 
 
@@ -418,10 +423,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -442,7 +447,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -510,7 +515,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
@@ -646,10 +651,29 @@
 
 
 
+	
 
 
 
 
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
